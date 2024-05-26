@@ -1,0 +1,94 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+}
+
+header h1 .highlight {
+    font-weight: bold;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #777;
+}
+
+.main {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 10px 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar p {
+    margin: 5px 0;
+}
+
+.sidebar a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 2;
+    padding: 10px 40px;
+}
+
+.about, .work-experience {
+    margin-bottom: 20px;
+}
+
+.work-experience .job {
+    margin-bottom: 15px;
+}
+
+.work-experience h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
